@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeLearn - Learn to Code</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">&lt;/&gt;</div>
+            <span>Code<span>Learn</span></span>
+        </div>
+
+        <nav class="navigation">
+
+            <p class="nav-title">MAIN</p>
+
+            <a href="#" class="nav-link active">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>▣</span>
+                My Courses
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>◈</span>
+                Explore
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>⚡</span>
+                Challenges
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>🏆</span>
+                Leaderboard
+            </a>
+
+            <p class="nav-title">LEARNING</p>
+
+            <a href="#" class="nav-link">
+                <span>♡</span>
+                Bookmarks
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>◷</span>
+                Learning History
+            </a>
+
+            <a href="#" class="nav-link">
+                <span>⚙</span>
+                Settings
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <div class="upgrade-card">
+
+                <div class="upgrade-icon">⚡</div>
+
+                <h4>Go Pro</h4>
+
+                <p>
+                    Unlock all courses and advanced coding challenges.
+                </p>
+
+                <button>Upgrade Now</button>
+
+            </div>
+
+            <div class="user-mini">
+
+                <div class="avatar">TM</div>
+
+                <div>
+                    <strong>Tonny</strong>
+                    <small>Free Account</small>
+                </div>
+
+                <span>⋮</span>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <div class="search">
+
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search courses, lessons..."
+                >
+
+                <kbd>Ctrl K</kbd>
+
+            </div>
+
+            <div class="top-actions">
+
+                <button class="icon-btn" id="themeBtn">
+                    ☾
+                </button>
+
+                <button class="icon-btn notification">
+                    ♢
+                    <i></i>
+                </button>
+
+                <div class="profile">
+
+                    <div class="avatar">
+                        TM
+                    </div>
+
+                    <div class="profile-text">
+                        <strong>Tonny M.</strong>
+                        <small>Developer</small>
+                    </div>
+
+                    <span>⌄</span>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- CONTENT -->
+        <section class="content">
+
+            <!-- WELCOME -->
+            <div class="welcome">
+
+                <div>
+                    <p class="eyebrow">WEDNESDAY, SEPTEMBER 30</p>
+
+                    <h1>
+                        Good evening, Tonny 👋
+                    </h1>
+
+                    <p class="welcome-text">
+                        Keep building your skills. You're doing great!
+                    </p>
+                </div>
+
+                <button class="continue-btn" id="continueBtn">
+                    Continue Learning
+                    <span>→</span>
+                </button>
+
+            </div>
+
+
+            <!-- STATISTICS -->
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-icon purple">
+                        ◉
+                    </div>
+
+                    <div>
+                        <span>Learning Progress</span>
+                        <strong>68%</strong>
+                    </div>
+
+                    <div class="mini-progress">
+                        <div style="width:68%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon orange">
+                        🔥
+                    </div>
+
+                    <div>
+                        <span>Current Streak</span>
+                        <strong>12 Days</strong>
+                    </div>
+
+                    <small class="positive">
+                        +3 this week
+                    </small>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon blue">
+                        ✦
+                    </div>
+
+                    <div>
+                        <span>Total XP</span>
+                        <strong>8,420 XP</strong>
+                    </div>
+
+                    <small class="positive">
+                        +640 this week
+                    </small>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon green">
+                        ✓
+                    </div>
+
+                    <div>
+                        <span>Lessons Completed</span>
+                        <strong>47</strong>
+                    </div>
+
+                    <small>
+                        of 72 lessons
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <!-- DASHBOARD GRID -->
+            <div class="dashboard-grid">
+
+
+                <!-- CONTINUE LEARNING -->
+                <section class="section">
+
+                    <div class="section-heading">
+
+                        <div>
+                            <h2>Continue Learning</h2>
+                            <p>Pick up where you left off</p>
+                        </div>
+
+                        <a href="#">
+                            View all →
+                        </a>
+
+                    </div>
+
+
+                    <div class="continue-card">
+
+                        <div class="course-image html-image">
+                            <div class="code-symbol">
+                                &lt;/&gt;
+                            </div>
+                        </div>
+
+                        <div class="continue-info">
+
+                            <div class="course-label">
+                                <span>FRONTEND DEVELOPMENT</span>
+                                <b>62% COMPLETE</b>
+                            </div>
+
+                            <h3>
+                                Modern JavaScript from Zero to Advanced
+                            </h3>
+
+                            <p>
+                                Lesson 18 · Working with Async/Await
+                            </p>
+
+                            <div class="course-progress">
+
+                                <div>
+                                    <span></span>
+                                </div>
+
+                                <strong>62%</strong>
+
+                            </div>
+
+                            <button class="lesson-btn" id="lessonBtn">
+                                Continue Lesson →
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!-- DAILY CHALLENGE -->
+                <section class="challenge-section">
+
+                    <div class="challenge-header">
+
+                        <div>
+                            <h2>Daily Challenge</h2>
+                            <p>Test your coding skills</p>
+                        </div>
+
+                        <span class="difficulty">
+                            MEDIUM
+                        </span>
+
+                    </div>
+
+                    <div class="challenge-body">
+
+                        <div class="challenge-icon">
+                            &lt;/
+                        </div>
+
+                        <h3>
+                            Reverse a String
+                        </h3>
+
+                        <p>
+                            Write a function that takes a string and
+                            returns the reversed version.
+                        </p>
+
+                        <div class="challenge-meta">
+                            <span>⚡ 100 XP</span>
+                            <span>◷ 15 min</span>
+                        </div>
+
+                        <button class="challenge-btn" id="challengeBtn">
+                            Start Challenge
+                        </button>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+            <!-- COURSES -->
+            <section class="section courses-section">
+
+                <div class="section-heading">
+
+                    <div>
+                        <h2>Popular Courses</h2>
+                        <p>Continue building your developer skills</p>
+                    </div>
+
+                    <a href="#">
+                        Explore courses →
+                    </a>
+
+                </div>
+
+
+                <div class="course-grid" id="courseGrid">
+
+                    <article class="course-card">
+
+                        <div class="course-cover javascript">
+                            <span>JS</span>
+                            <div class="cover-code">
+                                function()
+                            </div>
+                        </div>
+
+                        <div class="course-content">
+
+                            <span class="tag yellow">
+                                JAVASCRIPT
+                            </span>
+
+                            <h3>
+                                JavaScript Fundamentals
+                            </h3>
+
+                            <p>
+                                Master the fundamentals of modern JavaScript.
+                            </p>
+
+                            <div class="course-details">
+                                <span>◷ 12h 30m</span>
+                                <span>▣ 42 lessons</span>
+                            </div>
+
+                            <div class="card-footer">
+
+                                <div class="small-avatar">
+                                    JS
+                                </div>
+
+                                <span>
+                                    Alex Morgan
+                                </span>
+
+                                <strong>
+                                    4.9 ★
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="course-card">
+
+                        <div class="course-cover react">
+                            <span>⚛</span>
+                            <div class="cover-code">
+                                &lt;React /&gt;
+                            </div>
+                        </div>
+
+                        <div class="course-content">
+
+                            <span class="tag blue">
+                                REACT
+                            </span>
+
+                            <h3>
+                                React.js Developer Course
+                            </h3>
+
+                            <p>
+                                Build powerful interfaces with React.
+                            </p>
+
+                            <div class="course-details">
+                                <span>◷ 18h 15m</span>
+                                <span>▣ 58 lessons</span>
+                            </div>
+
+                            <div class="card-footer">
+
+                                <div class="small-avatar">
+                                    SK
+                                </div>
+
+                                <span>
+                                    Sarah Kim
+                                </span>
+
+                                <strong>
+                                    4.8 ★
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="course-card">
+
+                        <div class="course-cover python">
+                            <span>Py</span>
+                            <div class="cover-code">
+                                print()
+                            </div>
+                        </div>
+
+                        <div class="course-content">
+
+                            <span class="tag green">
+                                PYTHON
+                            </span>
+
+                            <h3>
+                                Python for Beginners
+                            </h3>
+
+                            <p>
+                                Learn Python and start building real projects.
+                            </p>
+
+                            <div class="course-details">
+                                <span>◷ 10h 45m</span>
+                                <span>▣ 36 lessons</span>
+                            </div>
+
+                            <div class="card-footer">
+
+                                <div class="small-avatar">
+                                    JD
+                                </div>
+
+                                <span>
+                                    James Davis
+                                </span>
+
+                                <strong>
+                                    4.9 ★
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- CODING LAB -->
+            <section class="coding-lab">
+
+                <div class="lab-header">
+
+                    <div>
+                        <p class="eyebrow">PRACTICE LAB</p>
+
+                        <h2>
+                            Write Code. Run It. Learn.
+                        </h2>
+
+                        <p>
+                            Practice what you've learned with our
+                            interactive coding environment.
+                        </p>
+                    </div>
+
+                    <div class="lab-status">
+                        <span></span>
+                        JavaScript
+                    </div>
+
+                </div>
+
+
+                <div class="editor">
+
+                    <div class="editor-top">
+
+                        <div class="file-tabs">
+
+                            <button class="file-tab active" data-tab="html">
+                                index.html
+                            </button>
+
+                            <button class="file-tab" data-tab="css">
+                                style.css
+                            </button>
+
+                            <button class="file-tab" data-tab="js">
+                                script.js
+                            </button>
+
+                        </div>
+
+                        <button class="run-btn" id="runCode">
+                            ▶ Run Code
+                        </button>
+
+                    </div>
+
+
+                    <div class="editor-body">
+
+                        <div class="code-panel">
+
+                            <div class="line-numbers" id="lineNumbers">
+                                1<br>2<br>3<br>4<br>5<br>6<br>7<br>8
+                            </div>
+
+                            <textarea id="codeEditor" spellcheck="false"><h1>Hello, Developer!</h1>
+<p>Welcome to CodeLearn.</p>
+
+<button onclick="sayHello()">
+    Click Me
+</button>
+
+<script>
+function sayHello() {
+    alert("Keep coding!");
+}
+</script></textarea>
+
+                        </div>
+
+
+                        <div class="preview-panel">
+
+                            <div class="preview-header">
+                                <span>LIVE PREVIEW</span>
+
+                                <span class="preview-dot">
+                                    ● Live
+                                </span>
+                            </div>
+
+                            <iframe
+                                id="preview"
+                                title="Live Preview">
+                            </iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ACHIEVEMENTS -->
+            <section class="achievements">
+
+                <div class="section-heading">
+
+                    <div>
+                        <h2>Your Achievements</h2>
+                        <p>Milestones you've unlocked</p>
+                    </div>
+
+                    <a href="#">
+                        View all →
+                    </a>
+
+                </div>
+
+                <div class="achievement-grid">
+
+                    <div class="achievement-card">
+                        <div>🔥</div>
+                        <strong>12 Day Streak</strong>
+                        <span>Keep it going!</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div>💻</div>
+                        <strong>Code Warrior</strong>
+                        <span>100 challenges</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div>🚀</div>
+                        <strong>Fast Learner</strong>
+                        <span>10 lessons in a week</span>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div>🏆</div>
+                        <strong>Top 10%</strong>
+                        <span>Weekly leaderboard</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<!-- TOAST -->
+<div class="toast" id="toast">
+    <span>✓</span>
+    <p>Code executed successfully!</p>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
